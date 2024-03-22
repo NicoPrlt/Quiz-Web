@@ -1,0 +1,34 @@
+text:Quel animal est associé à Pâques?
+option:Poule
+option:Lapin
+option:Chat
+option:Chien
+answer:Lapin
+
+text:Quel objet est souvent caché pour une chasse aux œufs?
+option:Chaussure
+option:Œuf
+option:Clé
+option:Livre
+answer:Œuf
+
+text:Quelle est la tradition de Pâques consistant à peindre des œufs?
+option:Chasse aux œufs
+option:Omelette géante
+option:Décoration d'œufs
+option:Concours de lancer d'œufs
+answer:Décoration d'œufs
+
+text:Quel jour de la semaine précède immédiatement Pâques?
+option:Vendredi Saint
+option:Jeudi Saint
+option:Mercredi Saint
+option:Mardi Saint
+answer:Vendredi Saint
+
+text:Quelle fête précède immédiatement Pâques?
+option:Noël
+option:Halloween
+option:Mardi Gras
+option:Thanksgiving
+answer:Mardi Gras

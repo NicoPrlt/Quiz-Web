@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{.Title}}</title>
+</head>
+<body>
+    <h3>Score Final</h3>
+    <p>Votre score est de : <span class="score">{{.Score}}</span></p>
+    <p><a href="/restart?difficulty={{.Difficulty}}">Rejouer</a></p> <!-- Lien pour revenir au quiz avec le même niveau de difficulté -->
+    <p class="btn2"><a href="/">Retour au Menu</a></p>
+</body>
+<footer>
+    <h1>© 2024 - Quiz de Pâques</h1>
+    <h2>Développé par Nicolas</h2>
+</footer>
+<style>
+    body {
+        background-color: gray;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        margin-top: 15vh;
+    }
+
+    h3 {
+        text-align: center;
+        color: white;
+        margin-top: 26vh;
+        font-size: 4vh;
+    }
+
+    .score {
+        color: #4CAF50;
+    }
+
+    p {
+        font-size: 3vh;
+        text-align: center;
+        color: white;
+    }
+
+    .btn2 {
+        margin-top: -3vh;
+        font-size: 3vh;
+    }
+
+    a {
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 1vh 2vw;
+        background-color: #4CAF50;
+        border-radius: 5px;
+    }
+
+    a:hover {
+        background-color: #008000;
+    }
+
+    footer {
+        margin-top: 30.1vh;
+        background-color: #333;
+        color: #fff;
+        padding: 20px; 
+        text-align: center; 
+    }
+
+    footer h1,
+    footer h2 {
+        margin: 5px 0;
+    }
+</style>
+</html>

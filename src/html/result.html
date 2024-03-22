@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <p class="{{.ResultClass}}">{{.Message}}</p>
+    {{if not .Correct}}
+        <p>The correct answer is: <span style="color: #4CAF50;">{{.CorrectAnswer}}</span></p>
+    {{end}}
+    <form action="/quiz-page" method="get">
+        <button type="submit">Next Question</button>
+    </form>
+</body>
+<style>
+    body {
+        background-color: gray;
+        text-align: center;
+        margin-top: 30vh;
+        color:white;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        border-radius: 5px;
+        color: white;
+        border: none;
+    }
+
+    button:hover {
+        background-color: #008000;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+    
+    .correct {
+    color: green;
+    }
+
+    .incorrect {
+        color: red;
+    }
+</style>
+</html>

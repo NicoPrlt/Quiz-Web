@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{.Title}}</title>
+</head>
+<body>
+    <h1>{{.Question.Text}}</h1>
+    <form method="post" action="/answer">
+        {{range .Question.Options}}
+            <input type="radio" name="answer" value="{{.}}"> {{.}} <br>
+        {{end}}
+        <input type="submit" value="Répondre">
+    </form>
+</body>
+<style>
+   body {
+        background-color: gray;
+        margin-top: 250px;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+
+    form {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    input[type=submit] {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        border-radius: 5px;
+        color: white;
+        border: none;
+    }
+
+    input[type=submit]:hover {
+        background-color: #008000;
+    }
+
+    input[type=radio] {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input[type="radio"] + label {
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+        padding-left: 25px;
+        position: relative;
+    }
+
+    input[type="radio"] + label:before {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        position: absolute;
+        left: 0;
+        top: 2px;
+    }
+
+    input[type="radio"]:checked + label:before {
+        background-color: #4CAF50;
+    }
+
+    label {
+        display: block;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+</style>
+</html>

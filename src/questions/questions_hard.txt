@@ -1,0 +1,34 @@
+text:Quel terme désigne la semaine sainte avant Pâques dans le calendrier liturgique catholique?
+option:La Semaine de la Passion
+option:La Semaine Sainte
+option:La Grande Semaine
+option:La Semaine Sainte de Pâques
+answer:La Semaine Sainte
+
+text:Quelle est la signification du terme latin "Pascha", d'où dérive le mot "Pâques"?
+option:Pain
+option:Résurrection
+option:Agneau
+option:Chocolat
+answer:Résurrection
+
+text:Quel événement biblique est commémoré par la fête de Pâques dans le christianisme?
+option:La crucifixion de Jésus
+option:La naissance de Jésus
+option:Le mariage de Jésus
+option:La résurrection de Jésus
+answer:La résurrection de Jésus
+
+text:Quel est le nom du repas rituel juif qui précède Pâques?
+option:Seder
+option:Yom Kippour
+option:Hanoukka
+option:Sukkot
+answer:Seder
+
+text:Quel est le nom de la cérémonie religieuse observée à minuit le samedi saint dans certaines églises chrétiennes?
+option:Veillée Pascale
+option:Vigile Pascale
+option:Messe de la Résurrection
+option:Service de la Lumière
+answer:Vigile Pascale

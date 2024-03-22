@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/level.css">
+    <title>Quiz de Pâques - Level</title>
+</head>
+<body>
+    <h1>Easter quiz</h1>
+    <p>Choose the difficulty level :</p>
+    <ul>
+        <li><a href="/quiz?difficulty=facile" class="btn-easy">Easy</a></li>
+        <li><a href="/quiz?difficulty=average" class="btn-average">Average</a></li>
+        <li><a href="/quiz?difficulty=hard" class="btn-hardcore">Hardcore</a></li>
+    </ul>
+</body>
+<style>
+    body {
+        background-color: gray;
+        margin-top: 200px;
+    }
+    h1 {
+        text-align: center;
+        color: white;
+    }
+    p {
+        font-size: 35px;
+        text-align: center;
+        color: white;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    ul li {
+        margin-bottom: 10px;
+    }
+    .btn-easy {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        border-radius: 5px;
+    }
+    .btn-average {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: orange;
+        border-radius: 5px;
+    }
+    .btn-hardcore {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: rgb(177, 35, 35);
+        border-radius: 5px;
+    }
+    .btn-easy:hover {
+        background-color: #008000;
+    }
+    .btn-average:hover {
+        background-color: #ff8c00;
+    }
+    .btn-hardcore:hover {
+        background-color: #ff0000;
+    }
+
+</style>
+</html>

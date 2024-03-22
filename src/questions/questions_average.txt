@@ -1,0 +1,34 @@
+text:Quel pays a popularisé la tradition d'offrir des œufs en chocolat à Pâques?
+option:Allemagne
+option:Italie
+option:Belgique
+option:Suisse
+answer:Allemagne
+
+text:Quel est le nom du dessert traditionnellement préparé pour Pâques en Russie?
+option:Baba au rhum
+option:Pashka
+option:Tarte au citron
+option:Mousse au chocolat
+answer:Pashka
+
+text:Quel est le nom du personnage mythologique germanique associé à la distribution d'œufs de Pâques?
+option:Osterhase
+option:Ostern
+option:Osterfest
+option:Osterei
+answer:Osterhase
+
+text:Quel jour est célébré le lundi de Pâques dans de nombreuses régions du monde?
+option:Le lendemain de Pâques
+option:Le jour de la Résurrection
+option:Le jour des œufs
+option:Le jour du lapin
+answer:Le lendemain de Pâques
+
+text:Quel est le nom du pain sucré traditionnellement cuit pour Pâques en Grèce?
+option:Tsoureki
+option:Pita
+option:Fougasse
+option:Baguette
+answer:Tsoureki
